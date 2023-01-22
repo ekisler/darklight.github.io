@@ -17,6 +17,7 @@ function Footer() {
       </div>
       <div className="footer-body">
         <ul className="footer-icons">
+          <li>
           <a
             href="https://github.com/ekisler"
             className="text-warning"
@@ -25,27 +26,37 @@ function Footer() {
           >
             GitHub{" "}
           </a>
+          </li>
 
+          <li>
           <a
             className="twitter"
             href="https://twitter.com/ekracing"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          >
+          </a>
+          </li>
 
+          <li>
           <a
             href="https://www.linkedin.com/in/emisael-kisler-fullstack/"
             className="twitter"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
-
+          >
+          </a>
+          </li>
+          
+          <li>
           <a
             className="twitter"
             href="https://www.instagram.com/kisler_tecnologia/"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          >
+          </a>
+          </li>
         </ul>
       </div>
     </div>
